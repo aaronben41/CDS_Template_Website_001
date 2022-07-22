@@ -121,6 +121,7 @@ body{
   
   #newsletter h1{
     float:left;
+    font-size: 20px;
   }
   
   #newsletter form {
@@ -128,7 +129,7 @@ body{
     margin-top:15px;
   }
   
-  #newsletter input[type="email"]{
+  #newsletter input[type="text"]{
     padding:4px;
     height:25px;
     width:250px;
