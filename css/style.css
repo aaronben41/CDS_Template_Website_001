@@ -101,17 +101,27 @@ body{
   
   /* Showcase */
   #showcase{
-    min-height:400px;
+    min-height:600px;
     background-color: #ffffff
     /*background:url('../css/img/showcase1.png') no-repeat 0 -400px;*/
-    text-align:center;
+    /*text-align:center;*/
     color: black;
   }
   
+  /* The animation code */
+  @keyframes example {
+    from {color:#cccccc;}
+    to {color: #111111;}
+  }
+  
+  
   #showcase h1{
-    margin-top:100px;
+    font-weight:normal;
+    padding-top:200px;
     font-size:55px;
     margin-bottom:10px;
+    animation-name: example;
+    animation-duration: 4s;
   }
   
   #showcase p{
@@ -119,11 +129,13 @@ body{
   }
   
   /* Featured work */
+  
   #feature{
-    min-height:1221px;
-    background:url('../css/img/feature-work-1.jpg') no-repeat;
+    min-height:1080px;
+    background:url('../css/img/feature-work-2.png') no-repeat;
     text-align:center;
-    color: #ffffff;
+    color: #444444;
+    
   }
   
   #feature h3{
