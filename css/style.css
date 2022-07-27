@@ -100,9 +100,9 @@ body{
   }
   
   /* Showcase */
-  #showcase{
+  #showcase {
     min-height:600px;
-    background-color: #ffffff
+    background-color: #ffffff;
     /*background:url('../css/img/showcase1.png') no-repeat 0 -400px;*/
     /*text-align:center;*/
     color: black;
