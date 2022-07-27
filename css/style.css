@@ -130,7 +130,7 @@ body{
   
   /* Featured work */
   
-  #feature{
+  #featured{
     min-height:1080px;
     background:url('../css/img/feature-work-2.png') no-repeat;
     text-align:center;
