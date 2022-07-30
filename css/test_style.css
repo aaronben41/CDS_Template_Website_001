@@ -151,7 +151,8 @@ h2{
 
 /* Featured Section */
 .featured {
-    height:1080px;
+    width: 100%;
+    height:auto;
     border-bottom: var(--primary-color) 1px solid;
 }
 
