@@ -144,25 +144,44 @@ h2{
 /* Introductory section */
 .intro{
     height: 455px;
-    border-bottom: var(--primary-color) 1px solid;
+    /* border-bottom: var(--primary-color) 1px solid; */
     padding-top: 200px;
 
 }
 
 /* Featured Section */
 .featured {
+    position: relative;
     width: 100%;
     height:auto;
     border-bottom: var(--primary-color) 1px solid;
 }
 
-.featuredNav ul {
-    display:flex;
+.featuredNav {
+    /* position:absolute; */
+    width: 93%;
+    position:absolute;
+    bottom: 7%;
+    left: 0;
+    z-index: 10;
+
 }
 
-.featured .featuredNav button {
+.featuredNav .pages {
+    float: right;
+}
+
+.featured .featuredNav .pagination {
+    color: white;
+    font-size: 16px;
+    padding: 0 0 0 12px;
+    cursor: pointer;
+    text-align: right;
+    text-shadow: 1px 1px #1f1f1f;
    
 } 
+  
+
 
 .featured1 img {
     position: relative;
