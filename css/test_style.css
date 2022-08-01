@@ -187,6 +187,7 @@ h2{
     top: 0;
     max-width:100%;
     height: auto;
+    
 }
 
 .featured1 .article {
@@ -231,4 +232,14 @@ h2{
     box-sizing: border-box;
     max-width: fit-content;
 
+}
+
+.culture {
+    padding:0;
+    margin: 0;
+    position: relative;
+    width: 100%x;
+    height: 1080px;
+    background: var(--secondary-color);
+    border-bottom: var(--primary-color) 1px solid;
 }
